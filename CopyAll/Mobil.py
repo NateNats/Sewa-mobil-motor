@@ -51,7 +51,7 @@ class App(Tk):
         self.mainloop()
 
     def load_images(self):
-        self.background_img = PhotoImage(file=f"background.png", master=self)
+        self.background_img = PhotoImage(file=f"backgroundMobil.png", master=self)
         self.img0 = PhotoImage(file=f"img0.png", master=self)
         self.img1 = PhotoImage(file=f"img1.png", master=self)
         self.img2 = PhotoImage(file=f"img2.png", master=self)
