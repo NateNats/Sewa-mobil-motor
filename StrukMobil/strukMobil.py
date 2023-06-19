@@ -4,8 +4,6 @@ from tkinter import *
 class App(Tk):
     def __init__(self):
         super().__init__()
-        self.messageBox = Message
-
         self.geometry("1080x720")
         self.configure(bg="#fefbf6")
 
