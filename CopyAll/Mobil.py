@@ -1,38 +1,48 @@
 from tkinter import Tk, Canvas, Button, PhotoImage, Text
-
-
+import Data
 def btn_clicked():
-    print("1")
+    print("Mobil:", Data.merkMobil[0])
+    print("Model:", Data.modelMobil[0])
 
 def btn_clicked2():
-    print("2")
+    print("Mobil:", Data.merkMobil[1])
+    print("Model:", Data.modelMobil[1])
 
 def btn_clicked3():
-    print("3")
+    print("Mobil:", Data.merkMobil[2])
+    print("Model:", Data.modelMobil[2])
 
 def btn_clicked4():
-    print("4")
+    print("Mobil:", Data.merkMobil[3])
+    print("Model:", Data.modelMobil[3])
 
 def btn_clicked5():
-    print("5")
+    print("Mobil:", Data.merkMobil[4])
+    print("Model:", Data.modelMobil[4])
 
 def btn_clicked6():
-    print("6")
+    print("Mobil:", Data.merkMobil[5])
+    print("Model:", Data.modelMobil[5])
 
 def btn_clicked7():
-    print("7")
+    print("Mobil:", Data.merkMobil[6])
+    print("Model:", Data.modelMobil[6])
 
 def btn_clicked8():
-    print("8")
+    print("Mobil:", Data.merkMobil[7])
+    print("Model:", Data.modelMobil[7])
 
 def btn_clicked9():
-    print("9")
+    print("Mobil:", Data.merkMobil[8])
+    print("Model:", Data.modelMobil[8])
 
 def btn_clicked10():
-    print("10")
+    print("Mobil:", Data.merkMobil[9])
+    print("Model:", Data.modelMobil[9])
 
 def btn_clicked11():
-    print("11")
+    print("Mobil:", Data.merkMobil[10])
+    print("Model:", Data.modelMobil[10])
 
 class App(Tk):
     def __init__(self):
@@ -73,7 +83,6 @@ class App(Tk):
         self.entry6_img = PhotoImage(file=f"img_textBox6.png", master=self)
 
     def create_buttons(self):
-
         b0 = Button(image=self.img0, borderwidth=0, highlightthickness=0, command=btn_clicked, relief="flat", master=self)
         b0.place(x=118, y=226, width=101, height=23)
 
@@ -106,7 +115,6 @@ class App(Tk):
 
         b10 = Button(image=self.img10, borderwidth=0, highlightthickness=0, command=btn_clicked11, relief="flat", master=self)
         b10.place(x=893, y=668, width=108, height=23)
-
 
     def create_entries(self):
         self.entry0_bg = self.canvas.create_image(870.5, 605.0, image=self.entry0_img)
