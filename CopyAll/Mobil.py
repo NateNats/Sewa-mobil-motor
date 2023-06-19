@@ -1,48 +1,39 @@
 from tkinter import Tk, Canvas, Button, PhotoImage, Text
 import Data
+
 def btn_clicked():
-    print("Mobil:", Data.merkMobil[0])
-    print("Model:", Data.modelMobil[0])
+    pass
 
 def btn_clicked2():
-    print("Mobil:", Data.merkMobil[1])
-    print("Model:", Data.modelMobil[1])
+    pass
 
 def btn_clicked3():
-    print("Mobil:", Data.merkMobil[2])
-    print("Model:", Data.modelMobil[2])
+    pass
 
 def btn_clicked4():
-    print("Mobil:", Data.merkMobil[3])
-    print("Model:", Data.modelMobil[3])
+    pass
 
 def btn_clicked5():
-    print("Mobil:", Data.merkMobil[4])
-    print("Model:", Data.modelMobil[4])
+    pass
 
 def btn_clicked6():
-    print("Mobil:", Data.merkMobil[5])
-    print("Model:", Data.modelMobil[5])
+    pass
 
 def btn_clicked7():
-    print("Mobil:", Data.merkMobil[6])
-    print("Model:", Data.modelMobil[6])
+    pass
 
 def btn_clicked8():
-    print("Mobil:", Data.merkMobil[7])
-    print("Model:", Data.modelMobil[7])
+    pass
 
 def btn_clicked9():
-    print("Mobil:", Data.merkMobil[8])
-    print("Model:", Data.modelMobil[8])
+    pass
 
 def btn_clicked10():
-    print("Mobil:", Data.merkMobil[9])
-    print("Model:", Data.modelMobil[9])
+    pass
 
 def btn_clicked11():
-    print("Mobil:", Data.merkMobil[10])
-    print("Model:", Data.modelMobil[10])
+    pass
+
 
 class App(Tk):
     def __init__(self):
@@ -89,29 +80,29 @@ class App(Tk):
         b1 = Button(image=self.img1, borderwidth=0, highlightthickness=0, command=btn_clicked2, relief="flat", master=self)
         b1.place(x=309, y=226, width=92, height=22)
 
-        b2 = Button(image=self.img2, borderwidth=0, highlightthickness=0, command=btn_clicked3, relief="flat", master=self)
-        b2.place(x=872, y=438, width=81, height=23)
+        b9 = Button(image=self.img9, borderwidth=0, highlightthickness=0, command=btn_clicked3, relief="flat", master=self)
+        b9.place(x=499, y=226, width=97, height=23)
 
-        b3 = Button(image=self.img3, borderwidth=0, highlightthickness=0, command=btn_clicked4, relief="flat", master=self)
-        b3.place(x=685, y=438, width=81, height=23)
+        b8 = Button(image=self.img8, borderwidth=0, highlightthickness=0, command=btn_clicked4, relief="flat", master=self)
+        b8.place(x=685, y=226, width=90, height=23)
 
         b4 = Button(image=self.img4, borderwidth=0, highlightthickness=0, command=btn_clicked5, relief="flat", master=self)
         b4.place(x=872, y=224, width=81, height=23)
 
-        b5 = Button(image=self.img5, borderwidth=0, highlightthickness=0, command=btn_clicked6, relief="flat", master=self)
-        b5.place(x=499, y=438, width=81, height=23)
+        b7 = Button(image=self.img7, borderwidth=0, highlightthickness=0, command=btn_clicked6, relief="flat", master=self)
+        b7.place(x=125, y=438, width=81, height=23)
 
         b6 = Button(image=self.img6, borderwidth=0, highlightthickness=0, command=btn_clicked7, relief="flat", master=self)
         b6.place(x=313, y=438, width=81, height=23)
 
-        b7 = Button(image=self.img7, borderwidth=0, highlightthickness=0, command=btn_clicked8, relief="flat", master=self)
-        b7.place(x=125, y=438, width=81, height=23)
+        b5 = Button(image=self.img5, borderwidth=0, highlightthickness=0, command=btn_clicked8, relief="flat", master=self)
+        b5.place(x=499, y=438, width=81, height=23)
 
-        b8 = Button(image=self.img8, borderwidth=0, highlightthickness=0, command=btn_clicked9, relief="flat", master=self)
-        b8.place(x=685, y=226, width=90, height=23)
+        b3 = Button(image=self.img3, borderwidth=0, highlightthickness=0, command=btn_clicked9, relief="flat", master=self)
+        b3.place(x=685, y=438, width=81, height=23)
 
-        b9 = Button(image=self.img9, borderwidth=0, highlightthickness=0, command=btn_clicked10, relief="flat", master=self)
-        b9.place(x=499, y=226, width=97, height=23)
+        b2 = Button(image=self.img2, borderwidth=0, highlightthickness=0, command=btn_clicked10, relief="flat", master=self)
+        b2.place(x=872, y=438, width=81, height=23)
 
         b10 = Button(image=self.img10, borderwidth=0, highlightthickness=0, command=btn_clicked11, relief="flat", master=self)
         b10.place(x=893, y=668, width=108, height=23)
