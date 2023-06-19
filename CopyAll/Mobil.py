@@ -2,36 +2,47 @@ from tkinter import Tk, Canvas, Button, PhotoImage, Text
 import Data
 
 def btn_clicked():
+    print("1")
     pass
 
 def btn_clicked2():
+    print("2")
     pass
 
 def btn_clicked3():
+    print("3")
     pass
 
 def btn_clicked4():
+    print("4")
     pass
 
 def btn_clicked5():
+    print("5")
     pass
 
 def btn_clicked6():
+    print("6")
     pass
 
 def btn_clicked7():
+    print("7")
     pass
 
 def btn_clicked8():
+    print("8")
     pass
 
 def btn_clicked9():
+    print("9")
     pass
 
 def btn_clicked10():
+    print("10")
     pass
 
 def btn_clicked11():
+    print("11")
     pass
 
 
