@@ -74,32 +74,32 @@ class App(Tk):
 
     def create_entries(self):
         self.entry0_bg = self.canvas.create_image(893.5, 637.0, image=self.entry0_img)
-        entry0 = Entry(bd=0, bg="#d9d9d9", highlightthickness=0)
+        entry0 = Entry(bd=0, bg="#d9d9d9", highlightthickness=0, master=self)
         entry0.place(x=761, y=621, width=265, height=30)
         self.canvas.create_text(849.5, 602.5, text="Masukan Lama Peminjaman", fill="#000000", font=("None", int(12.0)))
 
         self.entry1_bg = self.canvas.create_image(893.5, 560.0, image=self.entry1_img)
-        entry1 = Entry(bd=0, bg="#d9d9d9", highlightthickness=0)
+        entry1 = Entry(bd=0, bg="#d9d9d9", highlightthickness=0, master=self)
         entry1.place(x=761, y=544, width=265, height=30)
         self.canvas.create_text(850.5, 525.5, text="Masukan Tanggal Peminjaman", fill="#000000", font=("None", int(12.0)))
 
         self.entry2_bg = self.canvas.create_image(561.5, 637.0, image=self.entry2_img)
-        entry2 = Entry(bd=0, bg="#d9d9d9", highlightthickness=0)
+        entry2 = Entry(bd=0, bg="#d9d9d9", highlightthickness=0, master=self)
         entry2.place(x=430, y=621, width=263, height=30)
         self.canvas.create_text(520.0, 602.5, text="Masukan Syarat Peminjaman", fill="#000000", font=("None", int(12.0)))
 
         self.entry3_bg = self.canvas.create_image(560.5, 560.0, image=self.entry3_img)
-        entry3 = Entry(bd=0, bg="#d9d9d9", highlightthickness=0)
+        entry3 = Entry(bd=0, bg="#d9d9d9", highlightthickness=0, master=self)
         entry3.place(x=428, y=544, width=265, height=30)
         self.canvas.create_text(507.5, 525.5, text="Masukan Alamat", fill="#000000", font=("None", int(12.0)))
 
         self.entry4_bg = self.canvas.create_image(228.5, 637.0, image=self.entry4_img)
-        entry4 = Entry(bd=0, bg="#d9d9d9", highlightthickness=0)
+        entry4 = Entry(bd=0, bg="#d9d9d9", highlightthickness=0, master=self)
         entry4.place(x=97, y=621, width=263, height=30)
         self.canvas.create_text(176.5, 602.5, text="Masukan No HP", fill="#000000", font=("None", int(12.0)))
 
         self.entry5_bg = self.canvas.create_image(227.5, 560.0, image=self.entry5_img)
-        entry5 = Entry(bd=0, bg="#d9d9d9", highlightthickness=0)
+        entry5 = Entry(bd=0, bg="#d9d9d9", highlightthickness=0, master=self)
         entry5.place(x=95, y=544, width=265, height=30)
         self.canvas.create_text(174.5, 525.5, text="Masukan Nama", fill="#000000", font=("None", int(12.0)))
 
