@@ -116,10 +116,10 @@ class App(Tk):
         self.canvas.create_text(174.5, 525.5, text="Masukan Nama", fill="#000000", font=("None", int(12.0)))
 
     def btn_clicked2(self):
-        showinfo(title="struk persewaan", message="Nama mobil: " + Data.merkMotor[1] + " " + Data.modelMotor[1]
+        showinfo(title="struk persewaan", message="Nama mobil: " + Data.merkMotor[4] + " " + Data.modelMotor[4]
                                                   + "\nNama Peminjam: " + self.entry5_var.get() + "\nNo HP: " + self.entry4_var.get() + "\nAlamat: " + self.entry3_var.get() + "\nSyareat Peminjaman: " + self.entry2_var.get()
                                                   + "\nHarga: " + Data.costMobil[
-                                                      1] + "\nLama Peminjaman: " + self.entry0_var.get() + "\n"
+                                                      4] + "\nLama Peminjaman: " + self.entry0_var.get() + "\n"
                                                   + "Tanggal Peminjaman: " + self.entry1_var.get())
 
     def btn_clicked(self):
@@ -130,59 +130,59 @@ class App(Tk):
                                                   + "Tanggal Peminjaman: " + self.entry1_var.get())
 
     def btn_clicked3(self):
-        showinfo(title="struk persewaan", message="Nama mobil: " + Data.merkMotor[2] + " " + Data.modelMotor[2]
+        showinfo(title="struk persewaan", message="Nama mobil: " + Data.merkMotor[1] + " " + Data.modelMotor[1]
                                                   + "\nNama Peminjam: " + self.entry5_var.get() + "\nNo HP: " + self.entry4_var.get() + "\nAlamat: " + self.entry3_var.get() + "\nSyareat Peminjaman: " + self.entry2_var.get()
                                                   + "\nHarga: " + Data.costMobil[
-                                                      2] + "\nLama Peminjaman: " + self.entry0_var.get() + "\n"
+                                                      1] + "\nLama Peminjaman: " + self.entry0_var.get() + "\n"
                                                   + "Tanggal Peminjaman: " + self.entry1_var.get())
 
     def btn_clicked4(self):
-        showinfo(title="struk persewaan", message="Nama mobil: " + Data.merkMotor[3] + " " + Data.modelMotor[3]
-                                                  + "\nNama Peminjam: " + self.entry5_var.get() + "\nNo HP: " + self.entry4_var.get() + "\nAlamat: " + self.entry3_var.get() + "\nSyareat Peminjaman: " + self.entry2_var.get()
-                                                  + "\nHarga: " + Data.costMobil[
-                                                      3] + "\nLama Peminjaman: " + self.entry0_var.get() + "\n"
-                                                  + "Tanggal Peminjaman: " + self.entry1_var.get())
-
-    def btn_clicked5(self):
-        showinfo(title="struk persewaan", message="Nama mobil: " + Data.merkMotor[4] + " " + Data.modelMotor[4]
-                                                  + "\nNama Peminjam: " + self.entry5_var.get() + "\nNo HP: " + self.entry4_var.get() + "\nAlamat: " + self.entry3_var.get() + "\nSyareat Peminjaman: " + self.entry2_var.get()
-                                                  + "\nHarga: " + Data.costMobil[
-                                                      4] + "\nLama Peminjaman: " + self.entry0_var.get() + "\n"
-                                                  + "Tanggal Peminjaman: " + self.entry1_var.get())
-
-    def btn_clicked6(self):
         showinfo(title="struk persewaan", message="Nama mobil: " + Data.merkMotor[5] + " " + Data.modelMotor[5]
                                                   + "\nNama Peminjam: " + self.entry5_var.get() + "\nNo HP: " + self.entry4_var.get() + "\nAlamat: " + self.entry3_var.get() + "\nSyareat Peminjaman: " + self.entry2_var.get()
                                                   + "\nHarga: " + Data.costMobil[
                                                       5] + "\nLama Peminjaman: " + self.entry0_var.get() + "\n"
                                                   + "Tanggal Peminjaman: " + self.entry1_var.get())
 
-    def btn_clicked7(self):
+    def btn_clicked5(self):
+        showinfo(title="struk persewaan", message="Nama mobil: " + Data.merkMotor[2] + " " + Data.modelMotor[2]
+                                                  + "\nNama Peminjam: " + self.entry5_var.get() + "\nNo HP: " + self.entry4_var.get() + "\nAlamat: " + self.entry3_var.get() + "\nSyareat Peminjaman: " + self.entry2_var.get()
+                                                  + "\nHarga: " + Data.costMobil[
+                                                      2] + "\nLama Peminjaman: " + self.entry0_var.get() + "\n"
+                                                  + "Tanggal Peminjaman: " + self.entry1_var.get())
+
+    def btn_clicked6(self):
         showinfo(title="struk persewaan", message="Nama mobil: " + Data.merkMotor[6] + " " + Data.modelMotor[6]
                                                   + "\nNama Peminjam: " + self.entry5_var.get() + "\nNo HP: " + self.entry4_var.get() + "\nAlamat: " + self.entry3_var.get() + "\nSyareat Peminjaman: " + self.entry2_var.get()
                                                   + "\nHarga: " + Data.costMobil[
                                                       6] + "\nLama Peminjaman: " + self.entry0_var.get() + "\n"
                                                   + "Tanggal Peminjaman: " + self.entry1_var.get())
 
+    def btn_clicked7(self):
+        showinfo(title="struk persewaan", message="Nama mobil: " + Data.merkMotor[3] + " " + Data.modelMotor[3]
+                                                  + "\nNama Peminjam: " + self.entry5_var.get() + "\nNo HP: " + self.entry4_var.get() + "\nAlamat: " + self.entry3_var.get() + "\nSyareat Peminjaman: " + self.entry2_var.get()
+                                                  + "\nHarga: " + Data.costMobil[
+                                                      3] + "\nLama Peminjaman: " + self.entry0_var.get() + "\n"
+                                                  + "Tanggal Peminjaman: " + self.entry1_var.get())
+
     def btn_clicked8(self):
+        showinfo(title="struk persewaan", message="Nama mobil: " + Data.merkMotor[9] + " " + Data.modelMotor[9]
+                                                  + "\nNama Peminjam: " + self.entry5_var.get() + "\nNo HP: " + self.entry4_var.get() + "\nAlamat: " + self.entry3_var.get() + "\nSyareat Peminjaman: " + self.entry2_var.get()
+                                                  + "\nHarga: " + Data.costMobil[
+                                                      9] + "\nLama Peminjaman: " + self.entry0_var.get() + "\n"
+                                                  + "Tanggal Peminjaman: " + self.entry1_var.get())
+
+    def btn_clicked9(self):
         showinfo(title="struk persewaan", message="Nama mobil: " + Data.merkMotor[7] + " " + Data.modelMotor[7]
                                                   + "\nNama Peminjam: " + self.entry5_var.get() + "\nNo HP: " + self.entry4_var.get() + "\nAlamat: " + self.entry3_var.get() + "\nSyareat Peminjaman: " + self.entry2_var.get()
                                                   + "\nHarga: " + Data.costMobil[
                                                       7] + "\nLama Peminjaman: " + self.entry0_var.get() + "\n"
                                                   + "Tanggal Peminjaman: " + self.entry1_var.get())
 
-    def btn_clicked9(self):
-        showinfo(title="struk persewaan", message="Nama mobil: " + Data.merkMotor[8] + " " + Data.modelMotor[8]
-                                                  + "\nNama Peminjam: " + self.entry5_var.get() + "\nNo HP: " + self.entry4_var.get() + "\nAlamat: " + self.entry3_var.get() + "\nSyareat Peminjaman: " + self.entry2_var.get()
-                                                  + "\nHarga: " + Data.costMobil[
-                                                      8] + "\nLama Peminjaman: " + self.entry0_var.get() + "\n"
-                                                  + "Tanggal Peminjaman: " + self.entry1_var.get())
-
     def btn_clicked10(self):
-        showinfo(title="struk persewaan", message="Nama mobil: " + Data.merkMotor[9] + " " + Data.modelMotor[9]
+        showinfo(title="struk persewaan", message="Nama mobil: " + Data.merkMotor[10] + " " + Data.modelMotor[10]
                                                   + "\nNama Peminjam: " + self.entry5_var.get() + "\nNo HP: " + self.entry4_var.get() + "\nAlamat: " + self.entry3_var.get() + "\nSyareat Peminjaman: " + self.entry2_var.get()
                                                   + "\nHarga: " + Data.costMobil[
-                                                      9] + "\nLama Peminjaman: " + self.entry0_var.get() + "\n"
+                                                      10] + "\nLama Peminjaman: " + self.entry0_var.get() + "\n"
                                                   + "Tanggal Peminjaman: " + self.entry1_var.get())
 
 
