@@ -1,19 +1,30 @@
 from tkinter import *
 
+class App(Tk):
+    def __init__(self):
+        super().__init__()
+        self.messageBox = Message
 
-def btn_clicked():
-    print("Button Clicked")
+        self.geometry("1080x720")
+        self.configure(bg="#fefbf6")
+
+        self.canvas = Canvas(self, bg="#fefbf6", height=720, width=1080, bd=0, highlightthickness=0, relief="ridge")
+        self.canvas.place(x=0, y=0)
+
+        self.background_img = PhotoImage(file="background.png")
+        self.background = self.canvas.create_image(540.0, 360.5, image=self.background_img)
+
+        self.resizable(False, False)
+
+    def btn_clicked(self):
+        print("Button Clicked")
+
+    def run(self):
+        self.mainloop()
 
 
-window = Tk()
 
-window.geometry("1080x720")
-window.configure(bg="#fefbf6")
-canvas = Canvas(window, bg="#fefbf6", height=720, width=1080, bd=0, highlightthickness=0, relief="ridge")
-canvas.place(x=0, y=0)
 
-background_img = PhotoImage(file=f"background.png")
-background = canvas.create_image(540.0, 360.5, image=background_img)
-
-window.resizable(False, False)
-window.mainloop()
+if __name__ == "__main__":
+    app = App()
+    app.mainloop()
