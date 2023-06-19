@@ -42,6 +42,7 @@ def btn_clicked10():
     pass
 
 def btn_clicked11():
+    showinfo(title="struk persewaan", message="d")
     print("11")
     pass
 
