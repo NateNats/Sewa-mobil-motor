@@ -2,7 +2,37 @@ from tkinter import *
 
 
 def btn_clicked():
-    print("Button Clicked")
+    print("1")
+
+def btn_clicked2():
+    print("2")
+
+def btn_clicked3():
+    print("3")
+
+def btn_clicked4():
+    print("4")
+
+def btn_clicked5():
+    print("5")
+
+def btn_clicked6():
+    print("6")
+
+def btn_clicked7():
+    print("7")
+
+def btn_clicked8():
+    print("8")
+
+def btn_clicked9():
+    print("9")
+
+def btn_clicked10():
+    print("10")
+
+def btn_clicked11():
+    print("11")
 
 
 window = Tk()
@@ -20,43 +50,43 @@ b0 = Button( image=img0, borderwidth=0, highlightthickness=0, command=btn_clicke
 b0.place(x=118, y=226, width=101, height=23)
 
 img1 = PhotoImage(file=f"img1.png")
-b1 = Button(image=img1, borderwidth=0, highlightthickness=0, command=btn_clicked, relief="flat")
+b1 = Button(image=img1, borderwidth=0, highlightthickness=0, command=btn_clicked2, relief="flat")
 b1.place(x=309, y=226, width=92, height=22)
 
 img2 = PhotoImage(file=f"img2.png")
-b2 = Button(image=img2, borderwidth=0, highlightthickness=0, command=btn_clicked, relief="flat")
+b2 = Button(image=img2, borderwidth=0, highlightthickness=0, command=btn_clicked3, relief="flat")
 b2.place(x=872, y=438, width=81, height=23)
 
 img3 = PhotoImage(file=f"img3.png")
-b3 = Button(image=img3, borderwidth=0, highlightthickness=0, command=btn_clicked, relief="flat")
+b3 = Button(image=img3, borderwidth=0, highlightthickness=0, command=btn_clicked4, relief="flat")
 b3.place(x=685, y=438, width=81, height=23)
 
 img4 = PhotoImage(file=f"img4.png")
-b4 = Button(image=img4, borderwidth=0, highlightthickness=0, command=btn_clicked, relief="flat")
+b4 = Button(image=img4, borderwidth=0, highlightthickness=0, command=btn_clicked5, relief="flat")
 b4.place(x=872, y=224, width=81, height=23)
 
 img5 = PhotoImage(file=f"img5.png")
-b5 = Button(image=img5, borderwidth=0, highlightthickness=0, command=btn_clicked, relief="flat")
+b5 = Button(image=img5, borderwidth=0, highlightthickness=0, command=btn_clicked6, relief="flat")
 b5.place(x=499, y=438, width=81, height=23)
 
 img6 = PhotoImage(file=f"img6.png")
-b6 = Button(image=img6, borderwidth=0, highlightthickness=0, command=btn_clicked, relief="flat")
+b6 = Button(image=img6, borderwidth=0, highlightthickness=0, command=btn_clicked7, relief="flat")
 b6.place(x=313, y=438, width=81, height=23)
 
 img7 = PhotoImage(file=f"img7.png")
-b7 = Button(image=img7, borderwidth=0, highlightthickness=0, command=btn_clicked, relief="flat")
+b7 = Button(image=img7, borderwidth=0, highlightthickness=0, command=btn_clicked8, relief="flat")
 b7.place(x=125, y=438, width=81, height=23)
 
 img8 = PhotoImage(file=f"img8.png")
-b8 = Button(image=img8, borderwidth=0, highlightthickness=0, command=btn_clicked, relief="flat")
+b8 = Button(image=img8, borderwidth=0, highlightthickness=0, command=btn_clicked9, relief="flat")
 b8.place(x=685, y=226, width=90, height=23)
 
 img9 = PhotoImage(file=f"img9.png")
-b9 = Button(image=img9, borderwidth=0, highlightthickness=0, command=btn_clicked, relief="flat")
+b9 = Button(image=img9, borderwidth=0, highlightthickness=0, command=btn_clicked10, relief="flat")
 b9.place(x=499, y=226, width=97, height=23)
 
 img10 = PhotoImage(file=f"img10.png")
-b10 = Button(image=img10, borderwidth=0, highlightthickness=0, command=btn_clicked, relief="flat")
+b10 = Button(image=img10, borderwidth=0, highlightthickness=0, command=btn_clicked11, relief="flat")
 b10.place(x=893, y=668, width=108, height=23)
 
 entry0_img = PhotoImage(file=f"img_textBox0.png")
