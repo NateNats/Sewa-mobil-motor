@@ -1,10 +1,9 @@
-from tkinter import Tk, Canvas, Button, PhotoImage, Text, StringVar, Entry
+from tkinter import Tk, Canvas, Button, PhotoImage, StringVar, Entry
 from tkinter.messagebox import showinfo
 import Data
 
 class App(Tk):
     def __init__(self):
-
         super().__init__()
         self.geometry("1080x720")
         self.configure(bg="#fefbf6")
