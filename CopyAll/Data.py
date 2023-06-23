@@ -1,5 +1,4 @@
 #Data Mobil
-
 merkMobil = ["PORSCHE", "LAMBORGHINI", "ROLLS ROYCE", "TOYOTA", "MITSUBISHI", "NISSAN", "HONDA", "WULING", "HONDA",
                  "SUZUKI", "DAIHATSU"]
 modelMobil = ["718", "AVENTADOR", "PHANTOM", "FORTUNER", "PAJERO", "X-TRAIL", "CIVIC", "CONFERO 1.5",

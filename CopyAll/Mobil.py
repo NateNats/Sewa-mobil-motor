@@ -13,7 +13,7 @@ class App(Tk):
         self.load_images()
         self.create_buttons()
         self.create_entries()
-        background = self.canvas.create_image(541.5, 270.5, image=self.background_img)
+        self.background = self.canvas.create_image(541.5, 270.5, image=self.background_img)
 
         self.resizable(False, False)
         self.mainloop()
